@@ -107,13 +107,14 @@ class Impl(Value):
         outputstr += " => "
         outputstr += self.rvalue.print()
         outputstr += ")"
+        return outputstr
 
 
 #Test
 
 a = Not(Value(False,"a"))
 b = Not(Value(False, "b"))
-c = Not(Not(Value(False, "c")))
-testone =And(a, b, c)
+c = Not(Value(False, "c"))
+testone =Impl(And(a, b, c), Not(Value(False, "d")))
 print(testone.print())
 print(str(testone.evaluate()))
