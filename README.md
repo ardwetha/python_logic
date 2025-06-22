@@ -5,7 +5,7 @@
 
 ## ToDo
 - Add Knowledgebases
-- Add more features
+- Add more features like conclusions
 
 # Usage
 - just include the logic_classes.py file in your project and import all needed classes
