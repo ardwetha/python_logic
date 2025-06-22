@@ -1,5 +1,6 @@
 # What is this
 - this is a simple library representing logical sentences
+- more might be added
 
 # Usage
 - just include the logic_classes.py file in your project and import all needed classes
