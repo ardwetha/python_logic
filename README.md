@@ -1,11 +1,5 @@
 # What is this
-- this is a simple library representing logical sentences
-
-- WIP
-
-## ToDo
-- Add Knowledgebases
-- Add more features like conclusions
+- this is a simple libary representing logical sentences
 
 # Usage
 - just include the logic_classes.py file in your project and import all needed classes
@@ -31,8 +25,8 @@ a = Not(Value(False,"a"))
 ```python
 testone =Impl(And(a, b, c), Not(Value(False, "d")))
 ```
-- each class has two functions
+- each clas has two functions
     - ```print```: prints the logical sentence
     - ```evaluate```: evaluates the sentence
-- accessing values directly is possible but leads to undefined behavior and is **NOT** the correct way to retrieve values
+- accessing values directly is possible but leads to undefined behaviour and is **NOT** the correct way to retrive values
 
